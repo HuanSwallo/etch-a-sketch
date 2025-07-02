@@ -8,6 +8,21 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
+    background-color:rgb(180, 240, 220);
+}
+
+button {
+    cursor: pointer;
+    border: 2px solid #4f84ed;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin: 5px 10px;
+    background-color: #b8b9bc;
+    font-size: 16px;
+}
+
+button:hover {
+  transform: scale(0.95);
 }
 
 .title {
@@ -20,6 +35,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 .screen {
@@ -29,16 +45,17 @@ body {
     height: 500px;
     background-color: #bfbfbf;
     box-shadow: black 0px 3px 8px;
-    margin: 0 auto;
+    margin-right: 50px;
 }
 
 .square {
     box-sizing: border-box;
-    border: 1px solid #000;
     background-color: white;
 }
 
 .settings {
     display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
