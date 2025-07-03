@@ -11,16 +11,21 @@
     <div class="content">
         <div class="screen"></div>
         <div class="settings">
-            <div class ="modes">
-               <button id="rainbow">Rainbow Mode</button>
-               <button id="shade">Shade Mode</button> 
+            <div class ="modes"> Modes
+                <div class ="choices">
+                    <button id="rainbow" class = "toggled">Rainbow Mode</button>
+                    <button id="shade">Shade Mode</button> 
+                    <button id="click"></button>
+                    <button id="eraser"></button>
+                </div>
             </div>
-            <div class="design">
-                <button id="reset">Reset</button>
+            <div class="design"> Design
+                <div class="choices">
+                    <button id="reset">Reset</button>
+                    <input type="color" id="color-picker" value="#000000">
+                </div>
             </div>
-            
         </div>
-        
     </div>
     <script src = "script.js"></script>
 </body>
